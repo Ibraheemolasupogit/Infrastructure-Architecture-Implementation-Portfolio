@@ -43,6 +43,8 @@ On-Premises Network
   (Corp-Prod)      (Corp-NonProd)  (Online-Prod)
   (Workload Sub)   (Workload Sub)  (Workload Sub)
 
+```
+
   ## 3. Hub VNet Design
 
 ### Components
@@ -65,11 +67,11 @@ GatewaySubnet
 AzureBastionSubnet
 SharedServicesSubnet
 
+```
 
 
 ---
 
-```markdown
 ## 4. Spoke VNet Design
 
 Each workload subscription contains its own Spoke VNet.
@@ -81,11 +83,10 @@ app-subnet
 data-subnet
 private-endpoints-subnet
 management-subnet
-
+```
 
 ---
 
-```markdown
 ## 5. Secure Egress Pattern
 
 All outbound traffic from spoke VNets follows this pattern:
