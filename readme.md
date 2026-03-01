@@ -38,6 +38,10 @@ This aligns with how a Solution Architect at Microsoft or a partner would docume
 
 ## Architecture Overview
 
+## Visual Architecture Overview
+
+![Enterprise Azure Infrastructure Overview](media/enterprise-azure-architecture-overview.png)
+
 This portfolio represents a layered enterprise Azure architecture built using a governance-first approach.
 
 The design follows a structured progression:
